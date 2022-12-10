@@ -198,4 +198,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# VScode
+/.vscode
+
 # End of https://www.toptal.com/developers/gitignore/api/python
