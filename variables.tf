@@ -13,7 +13,7 @@ variable "container_name" {
 }
 
 variable "container_port" {
-  type = list(any)
+  type = list
   default = [ 
     "8080",
     "8081",
@@ -22,10 +22,11 @@ variable "container_port" {
 }
 
 variable "container_volume" {
-  type    = list(any)
+  type    = list
   default = [
     "vol1",
     "vol2",
     "vol3"
   ]
 }
+
